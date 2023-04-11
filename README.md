@@ -17,6 +17,7 @@ To get started with DiceRoller, follow these steps:
 1. Clone this repository to your local machine.
 
 " git clone https://github.com/MrFarhanKhan007/DiceRoller.git " 
+
 2. Open the project in your preferred Kotlin IDE.
 
 3. Run the DiceRoller.kt file to launch the application.
