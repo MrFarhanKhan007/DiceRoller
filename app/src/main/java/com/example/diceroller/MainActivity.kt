@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
                 Box(
                     modifier = Modifier
                         .fillMaxSize()
-                        .background(Color(0xff0c1559)) // Set the background color to red
+                        .background(Color(0xff0c1559)) // Set the background color to custom blue
                 )
                 DiceRollerWithImage()
             }
@@ -41,7 +41,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun DiceRollerWithImage(modifier: Modifier = Modifier) {
+fun DiceRollerWithImage() {
     var result by remember { mutableStateOf(1) }
     val imageResource = when(result) {
         1 -> R.drawable.dice_1
@@ -84,8 +84,5 @@ fun DiceRollerWithImage(modifier: Modifier = Modifier) {
 @Preview
 @Composable
 fun DiceRollerApp() {
-    DiceRollerWithImage(modifier = Modifier
-        .fillMaxSize()
-        .wrapContentSize(Alignment.Center)
-    )
+    DiceRollerWithImage()
 }
