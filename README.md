@@ -2,7 +2,7 @@
 <!-- ![](Doc1_page-0001.jpg) -->
 <img src="./Doc1_page-0001.jpg" width="550" />
 
-### (Attached screenshot of the 3 possible outcomes of the dice)
+### (Attached screenshot of the 3 possible outcomes (out of 6) of the dice)
 DiceRoller is a simple and fun project that allows users to roll a virtual dice. This project is developed using Kotlin and is perfect for anyone who wants to create a fun and interactive application. The user-friendly interface of DiceRoller makes it easy to use and is perfect for both beginners and advanced users.
 
 ## Features 🚀
